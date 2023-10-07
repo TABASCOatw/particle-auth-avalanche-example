@@ -1,0 +1,103 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: Arial, sans-serif;
+  padding-top: 20px;
+}
+
+.profile-card {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.profile-card div {
+  margin-top: 20px;
+}
+
+.profile-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.button-google, .button-x {
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-google {
+  background-color: white;
+  color: black;
+}
+
+.button-x {
+  background-color: black;
+}
+
+.button-icon {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.copy-wallet {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button-google:hover {
+  background-color: #f2f2f2;
+}
+
+.sign-message-button {
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px auto;
+  display: block;
+  font-size: 16px;
+}
+
+.avax-balance-section {
+  font-size: 0.8em;
+}
+
+.avax-balance-section img, .avax-balance-section small {
+  vertical-align: bottom;
+}
